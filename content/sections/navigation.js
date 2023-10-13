@@ -46,7 +46,7 @@ export default class Navigation extends Component {
                 <StyledContainer>
                     <Brand>
                         <Link to="/" onClick={this.closeMobileMenu}>
-                            <h2>ZLURI</h2>
+                            <h2>ANFAH K</h2>
                         </Link>
                     </Brand>
                     <Mobile>
@@ -66,13 +66,13 @@ export default class Navigation extends Component {
                         <NavListWrapper>
                             <ul>
                                 <NavItem>
-                                    <a href="">Email</a>
+                                    <a href="https://www.canva.com/design/DAFxI4faQfI/gbC_5JVhgCAUvj-VrWoqYQ/view?utm_content=DAFxI4faQfI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Email</a>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="">Contact me</a>
+                                    <a href="https://www.canva.com/design/DAFxI9sWcmI/p4Q9PpGFTmlm7l6LobDf2A/view?utm_content=DAFxI9sWcmI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Contact me</a>
                                 </NavItem>
                                 <ActionsContainer>
-                                    <a href="https://get.zluri.com/request-demo">
+                                    <a href="https://www.canva.com/design/DAFqjawgUS4/DNbt1X3Hm6OvTZSh2KNsxQ/view?utm_content=DAFqjawgUS4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
                                         <button>Resume</button>
                                     </a>
                                 </ActionsContainer>
@@ -86,13 +86,13 @@ export default class Navigation extends Component {
                             <NavListWrapperMobile mobile={true}>
                                 <ul>
                                     <NavItemMobile>
-                                        <a href="">Email</a>
+                                        <a href="https://www.canva.com/design/DAFxI4faQfI/gbC_5JVhgCAUvj-VrWoqYQ/view?utm_content=DAFxI4faQfI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Email</a>
                                     </NavItemMobile>
                                     <NavItemMobile>
-                                        <a href="">Contact me</a>
+                                        <a href="https://www.canva.com/design/DAFxI9sWcmI/p4Q9PpGFTmlm7l6LobDf2A/view?utm_content=DAFxI9sWcmI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Contact me</a>
                                     </NavItemMobile>
                                     <ActionsContainer>
-                                        <a href="https://get.zluri.com/request-demo">
+                                        <a href="https://www.canva.com/design/DAFqjawgUS4/DNbt1X3Hm6OvTZSh2KNsxQ/view?utm_content=DAFqjawgUS4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
                                             <button>Resume</button>
                                         </a>
                                     </ActionsContainer>

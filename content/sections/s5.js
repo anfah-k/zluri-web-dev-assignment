@@ -11,7 +11,13 @@ const S5 = () => {
                 </h4>
                 <p>Put the created component below this.</p>
             </Title>
-            
+             
+            <div className="grid-container">
+                <div className="grid-item">1st</div>
+                <div className="grid-item">2nd</div>
+                <div className="grid-item">3rd</div>
+                <div className="grid-item">4th</div>
+                </div>
         </Container>
     )
 }
@@ -46,4 +52,33 @@ ul{
 li{
     font-size:20px;
 }
+`
+
+const Container = styled.div`
+    /* Basic styling for the grid container */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 20px;
+        /* Additional styling for the container can be added here */
+    }
+
+    /* Styling for grid items */
+    .grid-item {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 10px;
+        /* Additional styling for grid items can be added here */
+    }
+
+    /* Media queries for responsive layout adjustments */
+    @media (max-width: 767px) {
+        .grid-container {
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        }
+        /* Additional adjustments for smaller screens can be added here */
+    }
 `

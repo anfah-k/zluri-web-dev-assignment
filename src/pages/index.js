@@ -16,7 +16,7 @@ import Layout from "../../content/sections/layout";
 export default function IndexPage() {
   return (
     <Layout>
-      <Seo title="Web development assignment for Zluri" />
+      <Seo title="anfah" />
       <Navigation />
       <div>
         <Header />
